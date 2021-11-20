@@ -1,0 +1,18 @@
+'''
+This is for the CS101 Final Project of codecademy
+Game: TicTakToe
+Players: 2 (turn based, one player goes first then another player chooses)
+Things used:
+'''
+
+#setting up the game interface, I will use lists to create each row
+row1 = [" ", " ", " "]
+row2 = [" ", " ", " "]
+row3 = [" ", " ", " "]
+
+#This prints out the game interface
+game = [row1, row2, row3]
+for row in game:
+    print (row)
+
+
